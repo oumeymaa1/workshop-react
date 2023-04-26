@@ -18,7 +18,7 @@ root.render(
 <p>@Copyright  1992-2023</p>
 </div>
 <div>
-<p> All Right Reserved</p>
+<p> All Rights Reserved</p>
 </div>  
 </div>    
 

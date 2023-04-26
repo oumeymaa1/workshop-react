@@ -7,7 +7,9 @@ function App() {
     <><div className="App">
       <Navbar className='color'>
         <Container>
-          <Navbar.Brand href="#home">Vallée de Barcelonette</Navbar.Brand>
+          <div class="logo">
+            <img src="https://www.montagnedesreves.com/wp-content/uploads/2022/01/cropped-LOGO-NOIR.png" alt="logo" width="100px"></img>
+        </div>
           <Nav className="ml-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#features">Features</Nav.Link>
@@ -15,7 +17,11 @@ function App() {
           </Nav>
         </Container>
       </Navbar>
-    </div><Carousel variant="dark">
+    </div>
+    <div className='carous'>
+
+    <Carousel variant="dark">
+
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -44,12 +50,15 @@ function App() {
           <Carousel.Caption>
             <h5>Sainte-Anne pour du ski nature</h5>
           </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel><selection class="Presentation">
+        </Carousel.Item>      
+      </Carousel><div class="Presentation">
         <h1>Skier près de Barcelonnette</h1>
         <p>À l'image des multiples sommets de la vallée de Barcelonnette, les domaines skiables et les espaces nordiques de la Vallée de l'Ubaye Serre-Ponçon sont pluriels et vous permettent de découvrir et d'alterner tous les plaisirs de la glisse.
           Au total, ce sont 280 km de pistes de ski alpin et 58 km de pistes de ski de fond qui vous attendant à proximité de Barcelonnette !</p>
-      </selection><section class="cards">
+      </div>
+      </div>
+
+    <div class="cards">
         <Card style={{ width: '18rem' }}>
           <Card.Img variant="top" src="https://www.ski-express.com/mag/wp-content/uploads//2016/10/H%C3%A9bergement.jpg" />
           <Card.Body>
@@ -82,8 +91,9 @@ function App() {
             <Button variant="primary">Les magasins de location </Button>
           </Card.Body>
         </Card>
-      </section>
+      </div>
       <div class="forms">
+        <h3> Préparer votre séjour Ski</h3>
         <Form>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
